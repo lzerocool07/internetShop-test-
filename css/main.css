@@ -380,6 +380,7 @@ body {
 }
 
 /*/content*/
+/*right-bar*/
 #right-bar {
   width: 245px;
   float: left;
@@ -460,7 +461,9 @@ body {
   margin: 20px auto 0 auto;
 }
 
+/*/right-bar*/
 /*/content*/
+/*footer*/
 .footer {
   background: #016390 url(../img/footer-bg.jpg) top repeat-x;
   overflow: hidden;
@@ -525,3 +528,263 @@ body {
   text-decoration: none;
   color: #fff;
 }
+
+/*/footer*/
+/*index-line.html*/
+.kroshka {
+  font: 14px Verdana;
+  color: #555;
+  margin: 15px 0 30px 15px;
+}
+
+.kroshka span {
+  color: #2b8aba;
+}
+
+.kroshka a {
+  color: #555;
+}
+
+.kroshka a:hover {
+  text-decoration: none;
+}
+
+.vid-sort {
+  font: 12px Verdana;
+  color: #888;
+  background: #fafbfb;
+  border-bottom: 1px solid #dee7ec;
+  margin: 0 15px 30px 15px;
+  padding: 10px 0 10px 2px;
+}
+
+.vid-sort img {
+  margin: 0 2px;
+  position: relative;
+  top: 3px;
+}
+
+.vid-sort a {
+  color: #888;
+}
+
+.vid-sort a:hover {
+  text-decoration: none;
+}
+
+.vid-sort .sort-top {
+  background: url(../img/sort-top.gif) left 5px no-repeat;
+  padding: 0 0 0 12px;
+}
+
+.vid-sort .sort-bot {
+  background: url(../img/sort-bot.gif) left 5px no-repeat;
+  padding: 0 0 0 12px;
+}
+
+.vid-sort .sort-top-act {
+  background: url(../img/sort-top-act.gif) left 5px no-repeat;
+  padding: 0 0 0 12px;
+  color: #000;
+}
+
+.vid-sort .sort-bot-act {
+  background: url(../img/sort-bot-act.gif) left 5px no-repeat;
+  padding: 0 0 0 12px;
+  color: #000;
+}
+
+.product-line {
+  overflow: hidden;
+  margin: 0px 15px 40px 15px;
+}
+
+.product-line .product-line-img {
+  float: left;
+}
+
+.product-line .product-line-price {
+  float: right;
+}
+
+.product-line .product-line-price p {
+  font: 12px Verdana ,sans-serif;
+  margin: 0 0 5px 0;
+}
+
+.product-line .product-line-price p span {
+  font: 24px/0 Candara;
+}
+
+.product-line .product-line-price p a {
+  color: #000;
+}
+
+.product-line .product-line-price p a:hover {
+  text-decoration: none;
+}
+
+.product-line .product-line-price div {
+  margin: 5px 0 0 0;
+  height: 26px;
+}
+
+.product-line .product-line-price div img {
+  margin: 0 3px;
+}
+
+.product-line .product-line-opis {
+  font: 12px Verdana;
+  padding: 0 130px 0 60px;
+}
+
+.product-line .product-line-opis h2 {
+  font: 13px/0.8 Verdana;
+  color: #2b8aba;
+  margin: 0 0 7px 0;
+}
+
+.product-line .product-line-opis h2 a {
+  color: #2b8aba;
+}
+
+.product-line .product-line-opis h2 a:hover {
+  text-decoration: none;
+}
+
+.pager {
+  background: #fafbfb;
+  border-top: 1px solid #ebf1f4;
+  font: 15px Verdana;
+  color: #2b8aba;
+  margin: 15px 15px;
+  padding: 10px 10px;
+}
+
+.pager a {
+  color: #888;
+  font-size: 14px;
+  padding: 0 3px 0 0;
+}
+
+.pager a:hover {
+  text-decoration: none;
+  color: #888;
+}
+
+.pager a img {
+  position: relative;
+  top: 5px;
+}
+
+/*end*/
+/*catalog-table*/
+.product-table {
+  margin: 0 0 30px 0;
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.product-table h2 {
+  font: 12px Verdana;
+  color: #2b8aba;
+  margin: 0 0 10px 0;
+}
+
+.product-table h2 a {
+  color: #2b8aba;
+}
+
+.product-table h2 a:hover {
+  text-decoration: none;
+}
+
+.product-table p {
+  font: 12px Verdana;
+  margin: 0 0 10px 0;
+}
+
+.product-table p span {
+  font: 24px Candara;
+}
+
+.product-table .cat-table-more a {
+  margin: 0 0 10px 0 !important;
+  color: #555;
+}
+
+.product-table .cat-table-more a:hover {
+  text-decoration: none;
+  color: #888;
+}
+
+.product-table-img-main {
+  position: relative;
+}
+
+.product-table-img {
+  display: table-cell;
+  height: 150px;
+  position: relative;
+  vertical-align: middle;
+  width: 1%;
+}
+
+.product-table-img div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0 30px 0 0;
+}
+
+.product-table-img div img {
+  display: block;
+}
+
+/*end*/
+/*Content-txt*/
+.content-txt {
+  overflow: hidden;
+  font: 12px Verdana;
+  color: #000;
+  margin: 0 15px;
+}
+
+.content-txt h1 {
+  font-size: 24px;
+  color: #2b8aba;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+
+.content-txt h2 {
+  font-size: 18px;
+  color: #2b8aba;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+
+.content-txt h4 {
+  font-size: 12px;
+  color: #2b8aba;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+
+/*end* */
+/*index-catalog*/
+.catalog-detail {
+  overflow: hidden;
+  font: 12px Verdana;
+  color: #000;
+  margin: 0 15px;
+}
+
+.catalog-detail h1 {
+  font-size: 24px;
+  color: #2b8aba;
+  margin: 0 0 15px 0;
+}
+
+/*end */
